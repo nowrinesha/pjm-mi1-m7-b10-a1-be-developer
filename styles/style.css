@@ -306,14 +306,20 @@ color: rgb(255, 255, 255);
 
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .inspiration-video-container{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     text-align: center;
+}
+.iframe-border-radius{
+    border-radius: 16px;
 }
 
 
