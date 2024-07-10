@@ -9,8 +9,37 @@
     font-family: "Azeret Mono", monospace;
 }
 
+/* navbar secton starts--------------------------------- */
+header{
+    width: 100%;
+    padding: 30px 0px;
+}
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
 
-
+    
+}
+.nav-text h1{
+    font-size: 28px;
+    font-weight: 800;
+    padding: 10px 0px;
+    
+}
+.nav-btn{
+    text-align: right;
+}
+.nav-btn button{
+    width: 288px;
+    height: 66px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    
+}
 /* banner-container section------------------ */
 .banner-container{
     width: 100%;
@@ -134,14 +163,14 @@ color: rgb(255, 255, 255);
     text-align: left;
     font-size: 24px;
     line-height: 36px;
-font-weight: 700;
-margin-bottom: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 .first-web-development-text p{
     text-align: left;
     font-size: 16px;
     font-weight: 400;
-margin-bottom: 44px;
+    margin-bottom: 44px;
 }
 
 
@@ -153,10 +182,10 @@ margin-bottom: 44px;
 
 #learn-more-btn{
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-font-size: 20px;
-font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .second-web-development-container{
@@ -187,14 +216,14 @@ font-weight: 600;
     text-align: left;
     font-size: 24px;
     line-height: 36px;
-font-weight: 700;
-margin-bottom: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 .second-web-development-text p{
     text-align: left;
     font-size: 16px;
     font-weight: 400;
-margin-bottom: 44px;
+    margin-bottom: 44px;
 }
 
 
@@ -231,14 +260,14 @@ margin-bottom: 44px;
     text-align: left;
     font-size: 24px;
     line-height: 36px;
-font-weight: 700;
-margin-bottom: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 .third-web-development-text p{
     text-align: left;
     font-size: 16px;
     font-weight: 400;
-margin-bottom: 44px;
+    margin-bottom: 44px;
 }
 
 
@@ -261,8 +290,8 @@ margin-bottom: 44px;
 }
 .inspiration-content h1{
     font-size: 32px;
-font-weight: 800;
-margin-bottom: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
 
 }
 .inspiration-content p{
@@ -275,7 +304,7 @@ margin-bottom: 24px;
     width: 100%;
     height: 672px;
 
-    border: 2px solid greenyellow;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     
 }
@@ -372,9 +401,9 @@ margin-bottom: 24px;
     width: 80%;
     height: 314px;
     margin: 0 auto;
-   margin-top: 43px;
-   background-image: url(/assets/handshake.jpg);
-   background-size: cover;
+    margin-top: 43px;
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
 
     
 
