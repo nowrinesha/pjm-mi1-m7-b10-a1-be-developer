@@ -53,7 +53,7 @@ margin-top: 32px;
 }
 
 .banner-content-text button{
-    width: 208px;
+    width: 288px;
 height: 66px;
 border-radius: 8px;
 
@@ -247,23 +247,24 @@ margin-bottom: 44px;
     height: 220px;
     padding-right: 60px;
 }
+
+
 /* current-target-section-container------------------------------------------------------------- */
 .current-target-section-container{
     width: 80%;
     height: 465px;
     margin: 0 auto;
-    border: 2px solid blue; 
-    margin-top: 80px;
+    /* border: 2px solid blue;  */
+    
 }
 .current-target-section-content{
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }
 
 .current-target-section-text{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     justify-content: center;
     text-align:center;
     align-items: center;
@@ -279,10 +280,48 @@ margin-bottom: 44px;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 48px;
+    color: rgb(13, 19, 33);
 
 }
 .current-target-section-items{
+    width: 100%;
     display: flex;
+    gap: 20px;
+    padding: 20px;
+
+} 
+
+.current-target-section-first-item{
+    width: 29%;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+.current-target-section-first-item .current-target-img img{
+    width: 56px;
+    height: 56px;
+    padding-bottom: 30px;
+    
+}
+.current-target-section-first-item h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    
+}
+.current-target-section-first-item p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    color: rgb(13, 19, 33);
+    margin: 30px 0;
+
+}
+.current-target-section-first-item a{
+    margin-top: 24px;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
 
 }
 /* need-support-container---------------------------------------- */
@@ -314,14 +353,14 @@ margin-bottom: 44px;
 .need-support-content h1{
     margin-bottom: 20px;
     font-size: 32px;
-font-weight: 700;
-color: rgb(255, 255, 255);
+    font-weight: 700;
+    color: rgb(255, 255, 255);
 }
 .need-support-content p{
     margin-bottom: 25px;
     font-size: 16px;
-font-weight: 400;
-color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 
 .input-bar-btn{
@@ -334,16 +373,10 @@ color: rgb(255, 255, 255);
     padding: 20px;
 }
 .input-bar-btn button {
-    width: 80px;
-    padding: 20px;
+    /* width: 80px; */
+    padding: 20px 20px;
 }
-/* .input-bar-design{
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 8px;   
-    background: rgb(255, 255, 255);
-    display: flex;
-} */
+
 
 /* footer-container styles------------------------ */
 
